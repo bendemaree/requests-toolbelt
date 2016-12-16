@@ -174,7 +174,6 @@ def monkeypatch(validate_certificate=True):
         adapter = InsecureAppEngineAdapter
 
     sessions.HTTPAdapter = adapter
-    adapters.HTTPAdapter = adapter
 
 
 def _check_version():
